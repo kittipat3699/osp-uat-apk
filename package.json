@@ -1,0 +1,13 @@
+{
+  "name": "liv24-uat-apk-hosting",
+  "version": "1.0.0",
+  "description": "Firebase Hosting project for Liv24 UAT APK downloads",
+  "scripts": {
+    "serve": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["firebase", "hosting", "apk"],
+  "author": "",
+  "license": "ISC"
+}
+
