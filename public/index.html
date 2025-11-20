@@ -158,26 +158,24 @@
       // ============================================
       // APK Download URL Configuration
       // ============================================
+      // ⚠️ GitHub Releases ไม่รองรับ APK โดยตรง!
       // เนื่องจาก Firebase Hosting/Storage ฟรีไม่อนุญาตไฟล์ executable
       // กรุณาเลือกใช้บริการฟรีอื่นๆ:
       //
-      // 1. GitHub Releases (แนะนำ):
-      //    https://github.com/USERNAME/REPO/releases/download/v1.0.0/app-uat-latest.apk
-      //
-      // 2. Cloudflare Pages:
+      // 1. Cloudflare Pages (แนะนำ - ฟรี + รองรับ APK):
       //    https://YOUR-PROJECT.pages.dev/app-uat-latest.apk
       //
-      // 3. Netlify:
+      // 2. Netlify (ง่ายที่สุด - Drag & Drop):
       //    https://YOUR-SITE.netlify.app/app-uat-latest.apk
       //
-      // 4. Google Drive:
+      // 3. Google Drive (ง่าย แต่ช้ากว่า):
       //    https://drive.google.com/uc?export=download&id=FILE_ID
       //
       // ดูรายละเอียดเพิ่มเติมในไฟล์ HOSTING_OPTIONS.md
       // ============================================
       const APK_DOWNLOAD_URL =
         window.APK_DOWNLOAD_URL ||
-        "https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0.0/app-uat-latest.apk";
+        "https://691e8e16ab21a6b4ea44cbf9--tourmaline-crisp-af1d3a.netlify.app/public/app-uat-latest.apk";
 
       // Update download link
       document.addEventListener("DOMContentLoaded", function () {
